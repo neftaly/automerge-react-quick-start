@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Repo } from "automerge-repo";
-import { RepoContext } from "automerge-repo-react-hooks";
-import { BroadcastChannelNetworkAdapter } from "automerge-repo-network-broadcastchannel";
+import { Repo } from "@automerge/automerge-repo";
+import { RepoContext } from "@automerge/automerge-repo-react-hooks";
+import { BroadcastChannelNetworkAdapter } from "@automerge/automerge-repo-network-broadcastchannel";
 // import { BrowserWebSocketClientAdapter } from "automerge-repo-network-websocket";
 // import { LocalForageStorageAdapter } from "automerge-repo-storage-localforage";
 import App from './App.tsx'

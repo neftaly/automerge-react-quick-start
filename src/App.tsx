@@ -1,6 +1,5 @@
 import viteLogo from '/vite.svg'
-import { useBootstrap } from './automerge-hooks';
-import { useDocument } from 'automerge-repo-react-hooks';
+import { useDocument, useBootstrap } from '@automerge/automerge-repo-react-hooks';
 
 function App({ userId }: { userId: string }) {
   // Load a document based on the URL hash or localStorage; else create one
